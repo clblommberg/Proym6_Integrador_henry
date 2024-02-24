@@ -51,8 +51,7 @@ respuesta numérica.                RPTA
 """
 
 
-#6. El índice de calor en un lugar particular (1) depende de la temperatura T *1/1
-
+#6. El índice de calor en un lugar particular (1) depende de la temperatura T *
 # (en grados Celsius), la humedad H y la velocidad del viento V (en m/s). Un modelo de regresión múltiple 
 # para el índice de calor (1) se describe mediante la ecuación que se muestra en la imagen. 
 # ¿Cuál de las siguientes interpretaciones del modelo es correcta?
@@ -136,7 +135,9 @@ No se podría concluir con la información disponible.
 """
 
 
-# 12. Al generar un modelo de regresión lineal simple para cada variable por separado, es decir, y1=f(x1), y2=f(x2) y y3= f(x3), con y1, y2, y3 la variable 'Sales', utilizando el 100% del dataset y trabajando con los hiperparámetros por defecto, la mayor bondad de ajuste se logra para:
+# 12. Al generar un modelo de regresión lineal simple para cada variable por separado, es decir, y1=f(x1), 
+#y2=f(x2) y y3= f(x3), con y1, y2, y3 la variable 'Sales', utilizando el 100% del dataset y trabajando 
+#con los hiperparámetros por defecto, la mayor bondad de ajuste se logra para:
 """
 y1=f(x1)               RPTA
 y2=f(x2)
@@ -155,7 +156,7 @@ y2=f(x2)
 (0,5000)
 """
 
-# 14. Si usted tuviese que elegir una variable para generar un modelo lineal *1/1 
+# 14. Si usted tuviese que elegir una variable para generar un modelo lineal
 # simple que explique la variable SalePrice ¿Cuál de las siguientes
 
 #  variables utilizaría?
@@ -166,7 +167,9 @@ OverallCond
 KitchenAbvGr'
 """
 
-# 15. Revise atentamente el bloque de código entregado. Después de efectuado el procedimiento, se pide utilizar validación cruzada, con cv=10 y aplicar árboles de decisión ¿En qué rango se encuentra el accuracy del modelo?
+# 15. Revise atentamente el bloque de código entregado. Después de efectuado el procedimiento, 
+# se pide utilizar validación cruzada, con cv=10 y aplicar árboles de decisión 
+# ¿En qué rango se encuentra el accuracy del modelo?
 """
 1. [0.65, 0.7)
 2. [0.7,0.8)
@@ -211,7 +214,7 @@ Mayor a 30000
 {'C': 1, 'coef0': 0, 'gamma': 1, 'kernel': 'sigmoid'}
 """
 
-# 20. ¿La cantidad de covariables m que se utilizan en la construcción de *1/1 un árbol, 
+# 20. ¿La cantidad de covariables m que se utilizan en la construcción  un árbol, 
 # dentro del RandomForest, es un hiperparámetro?, de ser así
 
 """
